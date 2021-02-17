@@ -1,0 +1,52 @@
+/*Inicial esencial para las medidas*/
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-size: auto;
+    background-image: linear-gradient(to bottom right, #B721FF, #1CA2C4 );
+    height: 100%;
+}
+div, article, aside,header, footer,main{
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+.anchoAltoForm{width: 100%; height: 100%;}
+
+.h1Titulo{
+    font-family: "Doctor Glitch", sans-serif;
+    font-size: 50px;
+}
+p{
+    font-family: "Arial", sans-serif;
+    font-size: 40px;
+    text-align: center;
+
+}
+input{
+    border: solid;
+    border-color: black;
+    border-radius: 100px;
+    padding: 10px;
+    background-color: transparent;
+}
+.Divtabla {
+    width: 50%;
+    text-align: center;
+}
+#boton{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.1em 0.1em 0;
+    border-color: black;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-align:center;
+    transition: all 0.2s;
+    background-color: #7bff19;
+    font-size: 20px;
+}
+#boton:hover{
+    border-color: snow;
+}

@@ -1,0 +1,26 @@
+/*Inicial esencial para las medidas*/
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+div, article, aside,header, footer,main{
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+body{
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image: linear-gradient(to bottom right,#FA8BFF,#2BD2FF,#2BFF88);
+}
+#tabla{
+    text-align: center;
+}
+#imgLateral{
+    width: 49%;
+}
+h2{
+    font-family: "Doctor Glitch", sans-serif;
+    font-size: 35px;
+}

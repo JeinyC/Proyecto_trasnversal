@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px) {
+    button{
+        backdrop-filter: blur(50px) brightness(0.9);
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    #parteIzquierdaTopbar{
+        width: 100px;
+    }
+
+    #Caja1{
+        margin-top: 40px;
+    }
+}
